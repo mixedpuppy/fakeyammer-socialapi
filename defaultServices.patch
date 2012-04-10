@@ -8,7 +8,7 @@ index 63c68bf..6a15446 100644
  var builtins = [
 +  {
 +    name: "Yammer",
-+    iconURL: "",
++    iconURL: "https://www.yammer.com/favicon.ico",
 +    workerURL: "",
 +    sidebarURL: "resource://socialdev/providers/yammer/yammer.html",
 +    URLPrefix: "https://www.yammer.com",

@@ -22,6 +22,11 @@ onconnect = function(e) {
       apiPort = port;
       initializeAmbientNotifications();
     }
+    if (msg.topic == "yam.currentUser") {
+      // bounce the user data into the socialAPI
+      postAPIMessage('social.ambient-notification-area', { portrait: msg.data.mugshot_url });
+    }
+
   }
 }
 
